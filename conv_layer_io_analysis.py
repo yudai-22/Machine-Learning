@@ -17,7 +17,7 @@ def Conv_output_results(input_shape, kernel_size, stride, padding):
     output_data = conv_layer(shape).squeeze()
     output_shape = tuple(output_data.shape)
 
-    print(f"入力データ形状: {input_shape}")
+    # print(f"入力データ形状: {input_shape}")
     print(f"出力データ形状: {output_shape}")
 
 
@@ -36,5 +36,5 @@ def ConvTtranspose_output_results(input_shape, kernel_size, stride, padding):
     output_data = conv_layer(shape).squeeze()
     output_shape = tuple(output_data.shape)
 
-    print(f"入力データ形状: {input_shape}")
+    # print(f"入力データ形状: {input_shape}")
     print(f"出力データ形状: {output_shape}")
