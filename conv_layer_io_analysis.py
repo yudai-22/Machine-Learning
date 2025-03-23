@@ -20,6 +20,8 @@ def Conv_output_results(input_shape, kernel_size, stride, padding):
     # print(f"入力データ形状: {input_shape}")
     print(f"出力データ形状: {output_shape}")
 
+    return output_shape
+
 
 def ConvTtranspose_output_results(input_shape, kernel_size, stride, padding):
     shape = torch.ones(input_shape)
@@ -38,3 +40,5 @@ def ConvTtranspose_output_results(input_shape, kernel_size, stride, padding):
 
     # print(f"入力データ形状: {input_shape}")
     print(f"出力データ形状: {output_shape}")
+
+    return output_shape
